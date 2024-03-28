@@ -10,25 +10,46 @@
             background-color: orange;
             color: white;
         }
-        .cidades{
-            display: inline;
-            margin: 10px;
-        }
 
         .baixar{
             display: inline;
             margin: 10px;
         }
 
+        ul{
+            list-style: none;
+        }
+        
     </style>
+
 </head>
 <body>
-    <h2>Página Inicial</h2>
+    <h2>Cidade do <a href="./Cidades/Espirito_Santo.html">ES</a></h2>
     <p>Clique na cidade desejada e obtenha mais informações</p> <br>
-    <a class="cidades" href="./Cidades/Vila_Velha.html" target="_blank">Vila Velha</a>
-    <a class="cidades" href="./Cidades/Vitoria.html" target="_blank">Vitória</a>
+    <ul>
+        <li>Grande Vitória (Abrindo em Outra Aba)
+            <ul>
+                <li><a  href="./Cidades/Vila_Velha.html" target="_blank">Vila Velha</a></li>
+                <li><a  href="./Cidades/Vitoria.html" target="_blank">Vitória</a></li>
+            </ul>
+        </li>
+        <li>Norte (Abrindo em Outra Aba)
+            <ul>
+                <li><a  href="./Cidades/Sao_Matheus.html" target="_blank">São Matheus</a></li>
+                <li><a  href="./Cidades/Conceicao_da_Barra.html" target="_blank">Conceição da Barra</a></li>
+            </ul>
+        </li>
+        <li>Sul (Abrindo na mesma aba)
+            <ul>
+                <li><a  href="./Cidades/Cachoeiro.html" target="_self">Cachoeiro</a></li>
+                <li><a  href="./Cidades/Alegre.html" target="_self">Alegre</a></li>
+            </ul>
+        </li>
+    </ul>
+
     <h3>Arquivos para Download</h3>
     <a class="baixar" type="application/zip" download="primeiro" href="./Arquivos/primeiro.zip">Zip</a>
-    <a class="baixar" type="text/doc" download="segundo" href="./Arquivos/segundo.doc">Doc</a>
+    <a class="baixar" type="application/doc" download="segundo" href="./Arquivos/segundo.doc">Doc</a>
+    <a class="baixar" type="application/pdf" download="terceiro" target="_blank" href="./Arquivos/Documento teste para PDF.pdf">Pdf</a>
 </body>
 </html>
