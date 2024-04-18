@@ -1,0 +1,35 @@
+/* #005f9b , #009ada , #00a9b7 , #83d4ec , #e2f0f3*/
+
+.gradiente{
+    background: linear-gradient(90deg, #005f9b, #009ada,#00a9b7);
+}
+
+.container{
+    background-color: gainsboro;
+    width: 50%;
+    padding: 15px;
+    margin:  150px auto;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px 2px #005f9b;
+    
+}
+
+h1{
+    color: #005f9b;
+    text-align: center;
+}
+
+h2{
+    color: #009ada;
+    text-shadow: 2px 0px 1px #09394e;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: left;
+}
+
+.teste{
+    
+}
